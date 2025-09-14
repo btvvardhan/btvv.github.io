@@ -12,7 +12,6 @@ links:
     url: /assets/projects/space-robotics/space-robotics-report.pdf
   - title: Demo Video
     url: https://www.youtube.com/watch?v=wzYCpQy7FVQ
-
 ---
 
 ## Autonomous UAV for Object Correspondence in Digital Twin Terrains
@@ -71,16 +70,18 @@ The UAV autonomously flies over a photogrammetry-generated terrain, detects rock
 
 ## Demo Video
 
-<div class="video-wrap">
-  <iframe src="https://youtu.be/wzYCpQy7FVQ" 
-  title="Simulation Demo" frameborder="0" allowfullscreen></iframe>
+<div class="img-wrap">
+  <iframe
+    width="812"
+    height="457"
+    src="https://www.youtube.com/embed/wzYCpQy7FVQ"
+    title="Simulation Demo"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
 </div>
-
-<!-- <div class="video-wrap">
-  <iframe src="https://www.youtube.com/embed/YYYYYYYYYYY" title="YOLOv8 Detection Demo" frameborder="0" allowfullscreen></iframe>
-</div> -->
-<!-- 
-(Replace `XXXXXXXXXXX` and `YYYYYYYYYYY` with your YouTube video IDs.) -->
 
 ---
 

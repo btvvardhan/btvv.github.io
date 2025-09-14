@@ -43,7 +43,10 @@ The pipeline combines **vector retrieval**, **LLM reasoning**, and **GPU acceler
 
 ## Demo Video
 <div class="video-wrap">
-  <iframe src="https://www.youtube.com/embed/TofwOV7kyKU" title="AI‑Accelerated Tutor Demo" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/TofwOV7kyKU" title="AI‑Accelerated Tutor Demo" 
+  width="874"
+  height="500"
+  frameborder="0" allowfullscreen></iframe>
 </div>
 
 ---
