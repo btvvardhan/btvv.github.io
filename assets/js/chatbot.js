@@ -1,7 +1,7 @@
 // assets/js/chatbot.js
 
 /* disable floating widget */
-if (true) { console.debug("[chatbot] floating widget disabled"); return; }
+//if (true) { console.debug("[chatbot] floating widget disabled"); return; }
 
 
 (function () {
@@ -226,7 +226,14 @@ if (true) { console.debug("[chatbot] floating widget disabled"); return; }
   }
 
   // ==== EVENTS ====
-  btn.onclick = togglePanel;
+  //btn.onclick = togglePanel;
+
+  // ==== EVENTS ====
+// Instead of opening the panel, go to /chatbot
+  btn.onclick = () => {
+    window.location.href = "/chatbot";   // or "{{ '/chatbot/' | relative_url }}"
+  };
+
 
   async function sendMsg(){
     const q = (input.value || "").trim();
