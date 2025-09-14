@@ -17,7 +17,7 @@
   // Inline SVG icon (default). Inherits currentColor → looks perfect on accent background.
  // Inline SVG icon (forced white color)
   const ICON_SVG = `
-    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" role="img" focusable="false">
+    <svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true" role="img" focusable="false">
       <path d="M4 5.5h12a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H9l-5 4v-4H4a3 3 0 0 1-3-3v-5a3 3 0 0 1 3-3Z"
             fill="none" stroke="currentColor" stroke-width="1.8"
             stroke-linecap="round" stroke-linejoin="round"/>
@@ -78,8 +78,8 @@
   style.textContent = `
   /* Chatbot button */
   .cbt-btn{
-    position:fixed; left:16px; bottom:16px;
-    width:62px; height:62px; display:flex; align-items:center; justify-content:center;
+    position:fixed; left:330px; bottom:650px;
+    width:70px; height:70px; display:flex; align-items:center; justify-content:center;
     border-radius:50%;
     background: #fff;   /* green circle */
     color:#083d48;                                  /* icon = white */;
