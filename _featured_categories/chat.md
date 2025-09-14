@@ -2,6 +2,6 @@
 layout: chat
 title: Website Chatbot
 permalink: /chatbot/
-sidebar: true
+sidebar: false
 order: 3
 ---
