@@ -50,3 +50,9 @@ vendor
 *.gem
 _zip
 /stats.json
+utterances.json
+package-lock.json
+package.json
+giscuss.json
+Gemfile
+Gemfile.lock
