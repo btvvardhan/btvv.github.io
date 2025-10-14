@@ -130,16 +130,25 @@ input[type=checkbox]:checked~ul {
 
 
 @media screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
+  .sidebar {
+    position: relative !important;
+    width: 100% !important;
+    text-align: center;
   }
   
-  .sidebar {
-    width: 100% !important;
+  .sidebar-sticky {
+    position: relative !important;
+    padding: 1rem !important;
+    height: auto !important;
   }
   
   .content {
     width: 100% !important;
+    margin-left: 0 !important;
     padding: 1rem !important;
+  }
+  
+  body {
+    font-size: 16px;
   }
 }
